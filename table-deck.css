@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+/* Hộp nội dung chính */
+.content-box {
+    background-color: #333; /* Nền trắng */
+    padding: 30px;
+    border-radius: 8px; /* Bo góc mềm mại */
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1); /* Đổ bóng nổi bật */
+    /* Đảm bảo hộp nội dung nổi bật so với nền xám */
+
+}
+
+h2 {
+  color: #ffcc00;
+  border-bottom: 1px solid #555;
+  padding-bottom: 0.5rem;
+  margin-top: 1.5rem;
+}
+h3 {
+    color: #fff; 
+    margin-top: 1rem;
+}
+
+p {
+    margin-bottom: 1rem;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+ul {
+    margin-bottom: 1rem;
+    margin-left: 1.5rem;
+}
+.content-box ul li{
+    list-style-type: decimal;
+}
+/* Khu vực ảnh minh họa */
+.image-placeholder {
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.image-placeholder img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+/*Caption cho ảnh*/
+.image-caption {
+    font-style: italic;
+    font-size: 0.8rem;
+    color: #7f8c8d;
+    margin-top: 10px;
+}
+
+/* Bố cục các loại Deck */
+.deck-types {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.deck-item {
+  background-color: #222;
+  padding: 20px;
+  border: 2px solid var(--primary-gold);
+  border-radius: 8px;
+  flex: 1;
+}
+
+
+/* Responsive cơ bản cho màn hình nhỏ */
+@media (max-width: 768px) {
+    .deck-types {
+        flex-direction: column;
+    }
+
+    .content-box {
+        padding: 1rem;
+    }
+}

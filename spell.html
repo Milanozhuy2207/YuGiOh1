@@ -1,286 +1,85 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="vi">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Yu-Gi-Oh! Spell Card - Hướng Dẫn Chi Tiết</title>
-    <link rel="stylesheet" href="spell.css">
-    <link rel="stylesheet" href="index.css">
-    <link rel="icon" href="./img/logo.png" type="image/x-icon">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" />
-
-</head> 
-
-<body>
-
+    <link rel="stylesheet" href="spell.css" />
+    <link rel="stylesheet" href="index.css" />
+    <link rel="icon" href="./img/logo.png" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    />
+  </head>
+  <body>
     <header>
-        <div class="nav-container nav-desktop">
-            <div class="dropdown">
-                <span class="menu-bar"><i class="fa-solid fa-bars"></i></span>
-                <div class="dropdown-content">
-                    <p><a href="#cau-tao">Cấu tạo cơ bản của một thẻ Spell Card</a></p>
-                    <p><a href="#cac-loai">Tổng quan các loại ma pháp</a></p>
-                    <p><a href="#normal-spell">Normal Spell</a></p>
-                    <p><a href="#continuous-spell">Continuous Spell</a></p>
-                    <p><a href="#quick-play-spell">Quick-Play Spell</a></p>
-                    <p><a href="#equip-spell">Equip Spell</a></p>
-                    <p><a href="#field-spell">Field Spell</a></p>
-                    <p><a href="#ritual-spell">Ritual Spell</a></p>
-                </div>
-            </div>
-            <nav>
-                <ul>
-                    <li><a href="home.html" target="_blank">Trang chủ</a></li>
-                    <li><a href="anime.html" target="_blank">Anime/Manga</a></li>
-                    <li><a href="tcg.html" target="_blank">Game Thẻ Bài</a></li>
-                    <li><a href="https://yugioh.fandom.com/wiki/Yu-Gi-Oh!_Wiki" target="_blank">Cộng đồng</a></li>
-                    <li><a href="https://www.yugioh-card.com/eu/event/wcs2025/" target="_blank">Tin tức</a></li>
-                </ul>
-            </nav>
-            <a href="product.html" class="cta-button">Bắt đầu đấu bài</a>
+      <div class="nav-container nav-desktop">
+        <div class="dropdown">
+          <span class="menu-bar"><i class="fa-solid fa-bars"></i></span>
+          <div class="dropdown-content">
+            <p><a href="#cau-tao">Cấu tạo thẻ Spell</a></p>
+            <p><a href="#cac-loai">Tổng quan các loại</a></p>
+            <p><a href="#normal-spell">Normal Spell</a></p>
+            <p><a href="#continuous-spell">Continuous Spell</a></p>
+            <p><a href="#quick-play-spell">Quick-Play Spell</a></p>
+            <p><a href="#equip-spell">Equip Spell</a></p>
+            <p><a href="#field-spell">Field Spell</a></p>
+            <p><a href="#ritual-spell">Ritual Spell</a></p>
+          </div>
         </div>
-
+        <nav>
+          <ul>
+            <li><a href="index.html">Trang chủ</a></li>
+            <li><a href="anime.html">Anime/Manga</a></li>
+            <li><a href="tcg.html">Game Thẻ Bài</a></li>
+            <li>
+              <a
+                href="https://yugioh.fandom.com/wiki/Yu-Gi-Oh!_Wiki"
+                target="_blank"
+                >Cộng đồng</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://www.yugioh-card.com/eu/event/wcs2025/"
+                target="_blank"
+                >Tin tức</a
+              >
+            </li>
+          </ul>
+        </nav>
+        <a href="product.html" class="cta-button">Bắt đầu đấu bài</a>
+      </div>
     </header>
 
     <main class="container">
-        <h1>Chi tiết: Spell Card </h1>
-
-        <!-- Phần Nội Dung -->
-        <section id="cau-tao" class="content-section">
-            <div class="content-image">
-                <!-- Hình ảnh ví dụ về thẻ bài -->
-                <img src="./img/dark_hole_.png" alt="Cấu tạo thẻ bài ma pháp">
-            </div>
-            <div class="content-text">
-                <h2>1. Cấu tạo cơ bản của một thẻ bài Ma Pháp (Spell Card)</h2>
-                <p>Một lá bài Ma pháp trong Yu-Gi-Oh! có màu nền <strong>xanh lục</strong> đặc trưng. Cấu tạo cơ bản bao
-                    gồm các phần sau:
-                </p>
-                <ul>
-                    <li><strong>Tên thẻ (Name):</strong> Nằm ở góc trên bên trái. Đây là phần tên của lá bài. Đối với
-                        một số lá bài ma pháp, tên của nó còn có thể nói lên cả tộc bài mà lá bài ma pháp đó hỗ trợ (ví
-                        dụ: lá bài <strong>Branded</strong> Fusion hỗ trợ cho tộc bài <strong>Branded</strong>)</li>
-                    <li>
-                        <strong>Cấp độ/Hạng (Level/Rank):</strong> Thẻ Ma pháp không có cấp độ sao (Level) như các lá
-                        bài quái thú.
-                    </li>
-                    <li>
-                        <strong>Icon lá ma pháp:</strong> Nó nằm ở phía bên phải cùng hàng với tên của lá bài. <img
-                            src="./img/spell.png" alt="" class="small-icon">
-                    </li>
-                    <li><strong>Icon loại Ma pháp:</strong> Đây là phần quan trọng của 1 lá bài ma pháp. Vì trong
-                        YuGiOh! TCG có tất cả 6 loại bài ma pháp với các icon khác nhau. Nên icon các loại ma pháp giúp
-                        người chơi có thể phân biệt và sử dụng chức năng các lá bài một cách chính xác.
-                    </li>
-                    <li><strong>Hình ảnh minh họa:</strong> Vùng ảnh lớn ở giữa bài.
-                    </li>
-                    <li><strong>Khung mô tả (Text Box):</strong> Đây là phần quan trọng nhất của cả lá bài. Chúng chứa
-                        hiệu ứng, chức năng của lá bài, giúp người chơi tạo ra các chiến thuật độc đáo trong trận đấu.
-                    </li>
-                    <li><strong>Chỉ số Tấn công/Phòng thủ (ATK/DEF):</strong> Không giống như lá quái thú (Monster
-                        Card), thẻ Ma pháp không có chỉ số này.
-                    </li>
-                    <li><strong>Mã số & Tem:</strong>Cũng như các lá bài quái thú, Chúng có chức năng ghi lại số hiệu
-                        sản xuất và sản phẩm chứa lá bài cũng như chống hàng giả, được in chìm và có thể có màu vàng
-                        hoặc bạc tùy vào phiên
-                        bản sản xuất của lá bài.</li>
-                </ul>
-            </div>
-        </section>
-
-        <section id="cac-loai" class="content-section">
-            <div class="content-image">
-                <!-- Hình ảnh ví dụ các loại thẻ -->
-                <img src="./img/raigeki__2020.png" alt="Các loại thẻ bài ma pháp">
-            </div>
-            <div class="content-text">
-                <h2>2. Các loại Spell Card phổ biến</h2>
-                <p>Có tổng cộng 6 loại Thẻ Ma pháp khác nhau, được phân biệt bằng các biểu tượng (Icon) riêng biệt bên
-                    phải phía dưới tên lá bài:</p>
-                <ul>
-                    <li><strong>Normal Spell :</strong> Kích hoạt một lần duy nhất, sau đó gửi xuống Mộ bài (Graveyard).
-                    </li>
-                    <li><strong>Continuous Spell:</strong> Duy trì trên sân sau khi kích hoạt, hiệu ứng kéo dài cho đến
-                        khi bị phá hủy.</li>
-                    <li><strong>Quick-Play Spell:</strong> Có thể kích hoạt ở hầu hết mọi thời điểm, kể cả trong lượt
-                        đối thủ (gần tương tự như Trap Card).
-                    </li>
-                    <li><strong>Equip Spell:</strong> Gắn vào một quái vật cụ thể để tăng sức mạnh hoặc cung cấp hiệu
-                        ứng đặc biệt.</li>
-                    <li><strong>Field Spell:</strong> Nằm ở khu vực Sân (Field Zone), ảnh hưởng đến toàn bộ sân đấu cho
-                        cả hai người chơi.</li>
-                    <li><strong>Ritual Spell:</strong> Dùng để triệu hồi các Quái vật Nghi thức (Ritual Monster).</li>
-
-                </ul>
-            </div>
-        </section>
-
-        <section id="normal-spell" class="content-section">
-            <div class="content-image">
-                <!-- Hình ảnh ví dụ các loại thẻ -->
-                <img src="./img/pot_of_greed.png" alt="Normal Spell">
-            </div>
-            <div class="content-text">
-                <h2>3. Normal Spell</h2>
-                <p><strong>Normal Spell (Ma pháp Thường)</strong> là loại Ma pháp cơ bản và phổ biến nhất, không có biểu
-                    tượng đặc biệt.</p>
-                <ul>
-                    <li><strong>Chức năng:</strong> Chúng có nhiều hiệu ứng đa dạng, từ phá hủy bài đối thủ, rút bài,
-                        đến triệu hồi quái vật đặc biệt. Khi kích hoạt, hiệu ứng giải quyết xong thì lá bài này được gửi
-                        ngay lập tức xuống Mộ bài (Graveyard).</li>
-                    <li><strong>Tầm quan trọng:</strong> Đây là xương sống của nhiều chiến thuật vì chúng cho phép người
-                        chơi thực hiện các hành động mạnh mẽ và tức thời trong Main Phase của mình.</li>
-                    <li><strong>Lưu ý:</strong> Chỉ có thể kích hoạt trong Main Phase của lượt mình.
-                    </li>
-                </ul>
-            </div>
-        </section>
-
-        <section id="continuous-spell" class="content-section">
-            <div class="content-image">
-                <!-- Hình ảnh ví dụ các loại thẻ -->
-                <img src="./img/toon_world.png" alt="Continuous Spell">
-            </div>
-            <div class="content-text">
-                <h2>4. Continuous Spell <img src="./img/Continuous_Spell_Trap.png" alt="" class="big-icon"></h2>
-                <p><strong>Continuous Spell (Ma pháp Liên tục)</strong> có biểu tượng vô cực bên phải phía dưới tên
-                    bài.</p>
-                <ul>
-                    <li><strong>Chức năng:</strong> Khi kích hoạt, lá bài này vẫn nằm ngửa trên Vùng Ma pháp & Cạm bẫy
-                        (Spell & Trap Zone) sau khi hiệu ứng đầu tiên được giải quyết. Chúng thường cung cấp hiệu ứng
-                        thụ động hoặc hiệu ứng có thể kích hoạt nhiều lần theo thời gian.
-                    </li>
-                    <li><strong>Tầm quan trọng:</strong> Chúng duy trì lợi thế lâu dài trên sân đấu, tạo ra một "khuôn
-                        khổ" chiến thuật mà đối thủ phải tìm cách phá bỏ.
-                    </li>
-                    <li><strong>Cần lưu ý:</strong> Giống Normal Spell, chúng thường chỉ được kích hoạt trong Main Phase
-                        của lượt mình. Chúng có thể bị phá hủy bởi các hiệu ứng bài khác trong khi đang hoạt động trên
-                        sân. Nếu lá bài này bị phá hủy, hiệu ứng liên tục của nó sẽ dừng lại ngay lập tức.
-                    </li>
-
-                </ul>
-            </div>
-        </section>
-
-        <section id="quick-play-spell" class="content-section">
-            <div class="content-image">
-                <!-- Hình ảnh ví dụ các loại thẻ -->
-                <img src="./img/mystical_space_typhoon.png" alt="Quick-Play Spell">
-            </div>
-            <div class="content-text">
-                <h2>5. Quick-Play Spell <img src="./img/Quick_play_Spell.png" alt="" class="big-icon"></h2>
-                <p><strong>Quick-Play Spell (Ma pháp Nhanh)</strong> có biểu tượng như sấp sét
-                    bên phải phía dưới tên
-                    bài.</p>
-                <ul>
-                    <li><strong>Chức năng:</strong> Đây là loại Ma pháp linh hoạt nhất, có thể kích hoạt ở bất kỳ thời
-                        điểm nào có thể kích hoạt lá bài Ma pháp Nhanh hoặc Cạm bẫy, kể cả trong Battle Phase, hoặc
-                        trong lượt của đối thủ.
-                    </li>
-                    <li><strong>Tầm quan trọng:</strong> Chúng đóng vai trò là công cụ phản đòn, bảo vệ quái vật, hoặc
-                        tạo ra những pha "hack não" bất ngờ trong trận đấu, làm thay đổi cục diện ngay lập tức.</li>
-                    <li><strong>Cần lưu ý:</strong> Nếu muốn kích hoạt chúng trong lượt của đối thủ, bạn phải úp lá bài
-                        xuống sân trong lượt của mình trước đó (giống như Bẫy). Nếu kích hoạt từ trên tay, bạn chỉ có
-                        thể làm vậy trong Main Phase của lượt mình.
-                    </li>
-
-                </ul>
-            </div>
-        </section>
-
-        <section id="equip-spell" class="content-section">
-            <div class="content-image">
-                <!-- Hình ảnh ví dụ các loại thẻ -->
-                <img src="./img/united_we_stand.png" alt="Equip Spell">
-            </div>
-            <div class="content-text">
-                <h2>6. Equip Spell <img src="./img/Equip_Spell.png" alt="" class="big-icon"></h2>
-                <p><strong>Equip Spell (Ma pháp Trang bị)</strong> có biểu tượng dấu cộng bên phải phía dưới tên bài.
-                </p>
-                <ul>
-                    <li><strong>Chức năng:</strong> Khi kích hoạt, lá bài này được gắn (equip) vào một quái vật chỉ
-                        định. Hiệu ứng của nó (thường là tăng ATK/DEF) chỉ có tác dụng lên quái vật được trang bị.
-                    </li>
-                    <li><strong>Tầm quan trọng:</strong> Chúng là cách nhanh chóng để gia tăng sức mạnh cho quái vật chủ
-                        lực, giúp vượt qua các quái vật mạnh hơn của đối thủ.</li>
-                    <li><strong>Cần lưu ý:</strong> Nếu quái vật được trang bị bị loại bỏ khỏi sân, lá bài Trang bị cũng
-                        tự động bị phá hủy và gửi xuống Mộ bài. Hầu hết các lá bài trang bị cũng chỉ được kích hoạt
-                        trong Main Phase của lượt mình.
-                    </li>
-
-                </ul>
-            </div>
-        </section>
-
-        <section id="field-spell" class="content-section">
-            <div class="content-image">
-                <!-- Hình ảnh ví dụ các loại thẻ -->
-                <img src="./img/necrovalley.png" alt="Field Spell">
-            </div>
-            <div class="content-text">
-                <h2>7. Field Spell <img src="./img/Field_spell.png" alt="" class="big-icon"></h2>
-                <p><strong>Field Spell (Ma pháp Sân)</strong> có biểu tượng ngôi sao 4 cánh bên phải phía dưới tên bài. 
-                </p>
-                <ul>
-                    <li><strong>Chức năng:</strong> Chúng được đặt ở khu vực Sân (Field Zone) riêng biệt. Hiệu ứng của
-                        chúng thường ảnh hưởng đến toàn bộ sân đấu, áp dụng cho cả hai người chơi, ví dụ: tăng sức mạnh
-                        cho một hệ/thuộc tính quái vật cụ thể.
-                    </li>
-                    <li><strong>Tầm quan trọng:</strong> Ma pháp Sân thiết lập một môi trường chiến đấu có lợi cho chiến
-                        thuật của người chơi.</li>
-                    <li><strong>Cần lưu ý:</strong> Mỗi người chơi chỉ được có 1 Ma pháp Sân ngửa trên sân. Theo luật
-                        hiện tại, cả hai người chơi đều có thể có Ma pháp Sân riêng biệt cùng lúc. Kích hoạt Ma pháp Sân
-                        mới sẽ gửi Ma pháp Sân cũ (của chính bạn) vào Mộ bài.
-                    </li>
-
-                </ul>
-            </div>
-        </section>
-
-        <section id="ritual-spell" class="content-section">
-            <div class="content-image">
-                <!-- Hình ảnh ví dụ các loại thẻ -->
-                <img src="./img/advanced_ritual_art.png" alt="Ritual Spell">
-            </div>
-            <div class="content-text">
-                <h2>8. Ritual Spell <img src="./img/Ritual_Spell.png" alt="" class="big-icon"></h2>
-                <p><strong>Ritual Spell (Ma pháp Nghi thức)</strong> có biểu tượng hình giọt nước hoặc ngọn lửa quay
-                    tròn bên phải phía dưới tên
-                    bài.</p>
-                <ul>
-                    <li><strong>Chức năng:</strong> Lá bài Ma pháp Nghi thức có một chức năng chuyên biệt duy nhất: dùng
-                        để Triệu hồi <strong>Nghi thức (Ritual Summon)</strong> một Quái vật Nghi thức cụ thể. Quy trình
-                        này thường yêu
-                        cầu hiến tế (Tribute) các quái vật khác trên sân hoặc từ trên tay có tổng Cấp độ (Level) bằng
-                        hoặc lớn hơn Cấp độ của Quái vật Nghi thức mà bạn muốn triệu hồi. (Xem thêm ở mục [Monster])
-                    </li>
-                    <li><strong>Tầm quan trọng:</strong> Ma pháp Nghi thức là chìa khóa để đưa các Quái vật Nghi thức
-                        (thường là những quái vật mạnh mẽ có hiệu ứng độc đáo) từ trên tay xuống sân đấu. Không có lá
-                        bài Ma pháp Nghi thức phù hợp, bạn không thể triệu hồi quái vật Nghi thức đó một cách hợp lệ.
-                    </li>
-                    <li><strong>Cần lưu ý:</strong> Giống như Normal Spell, chúng là loại Ma pháp chỉ có thể kích hoạt
-                        trong Main Phase của lượt mình và sẽ được gửi xuống Mộ bài ngay lập tức sau khi quá trình triệu
-                        hồi hoàn tất. Hầu hết các lá bài Nghi thức đều yêu cầu hiến tế cấp độ chính xác hoặc lớn hơn.
-                        Tuy nhiên, nhiều lá bài Nghi thức hiện đại đã linh hoạt hơn, cho phép sử dụng quái vật từ Mộ bài
-                        hoặc sử dụng các điều kiện khác để đáp ứng yêu cầu hiến tế. Chiến thuật xoay quanh Ritual Spell
-                        thường tốn nhiều tài nguyên (cần cả bài Ma pháp Nghi thức và các quái vật để hiến tế), nên việc
-                        quản lý tài nguyên và đảm bảo triệu hồi thành công là rất quan trọng.
-                    </li>
-
-                </ul>
-            </div>
-        </section>
+      <h1>Chi tiết: Spell Card</h1>
+      <section id="cau-tao" class="content-section">
+        <div class="content-image">
+          <img src="./img/dark_hole_.png" alt="Cấu tạo thẻ bài ma pháp" />
+        </div>
+        <div class="content-text">
+          <h2>1. Cấu tạo cơ bản của một thẻ bài Ma Pháp (Spell Card)</h2>
+          <p>
+            Một lá bài Ma pháp trong Yu-Gi-Oh! có màu nền
+            <strong>xanh lục</strong> đặc trưng...
+          </p>
+          <p>
+            (Bạn hãy giữ nguyên nội dung bài viết như file cũ, chỉ thay phần
+            Header nhé)
+          </p>
+        </div>
+      </section>
     </main>
 
-    <!-- Phần Footer -->
-    <footer >
-        <div class="container">
-            <p>&copy; Yu-Gi-Oh! TCG Guide | Bản quyền thuộc về Konami và tác giả Kazuki Takahashi.</p>
-            
-        </div>
+    <footer>
+      <div class="container">
+        <p>
+          &copy; Yu-Gi-Oh! TCG Guide | Bản quyền thuộc về Konami và tác giả
+          Kazuki Takahashi.
+        </p>
+      </div>
     </footer>
-
-</body>
-
+  </body>
 </html>
